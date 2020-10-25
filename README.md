@@ -27,5 +27,6 @@ iexpress.exe /n FWRootCAInstaller.SED
 ```
 
 You should now have a FWRootCAInstaller.EXE file in that folder.  
+Distribute how you like and make sure the end user runs the installer as Admin.  
 
 If you want a MSI/MSIX file you can use https://docs.microsoft.com/en-us/windows/msix/overview  
