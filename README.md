@@ -1,6 +1,8 @@
 # FWRootCAInstaller
-Simple IExplorer.exe example of a Installer for a Root CA  
-This installer uses Powershell to install the Root CA to Cert:\LocalMachine\Root (Trusted root CA) It will need to be run as Admin.  
+Simple IExpress.exe example of a Installer for a Root CA  
+What is IExpress.exe?  
+https://en.wikipedia.org/wiki/IExpress  
+In short the installer uses Powershell to install the Root CA to Cert:\LocalMachine\Root (Trusted root CA) It will need to be run as Admin.  
 ```
 PowerShell.exe -noprofile -windowstyle hidden -Sta -executionpolicy bypass -Command "Import-Certificate -FilePath cert.cer -CertStoreLocation Cert:\LocalMachine\Root"
 ```
